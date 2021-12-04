@@ -18,7 +18,7 @@
     file_put_contents(
         "dados.csv",
         "
-$data;$num;$firma;$endereco;$complemento;$bairro;$cidade;$estado;$cep;$cnpj;$inscr;$tels;$celular;$email;$obs;",
+$data,$num,$firma,$endereco,$complemento,$bairro,$cidade,$estado,$cep,$cnpj,$inscr,$tels,$celular,$email,$obs",
         FILE_APPEND
     );
 
